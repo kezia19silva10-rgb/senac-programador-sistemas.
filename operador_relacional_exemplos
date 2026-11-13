@@ -1,0 +1,7 @@
+const idade = 18;                      // variável inteira
+const limite = 18;                    //  valor de comparação
+
+console.log(idade > limite);         //   false (18 não é maior que 18)
+console.log(idade >= limite);       //    true  (18 é maior ou igual)
+console.log(idade === limite);     //     true  (mesmo volor e tipo)
+console.log(idade !== limite);    //      false (não são diferentes)
