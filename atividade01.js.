@@ -1,0 +1,17 @@
+//calculadora de compra-Atividade Prática 01
+// 10) declaração das variáaeis
+const preco = 39.90;             //preço do produto (R$)
+const quantidade = 3;           //quantidade a ser comprada
+const taxaDesconto = 0.10;     //Desconto de 10% (10/100)
+
+// 2) cálculos
+const total = preco * quantidade;                 // total da compra
+const esconto = total * taxaDesconto;            //  valor do desconto (10%)
+const volorFinal = total - desconto;            //   valor final a pagar
+
+// 3) Exibição dos resultados
+console.log("preço do produto: R$ " + preco.toFixed(2));
+console.log("quantidade: " + quantidade);
+console.log("valor total: R$ " + total.toFixed(2));
+console.log("desconto (10%): R$ " + desconto.tofixd(2));
+console.log("valor final a pagar: R$ " + valorfinal.tofixed(2));
