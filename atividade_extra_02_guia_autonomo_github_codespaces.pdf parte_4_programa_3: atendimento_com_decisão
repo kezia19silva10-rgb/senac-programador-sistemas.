@@ -1,0 +1,31 @@
+const opcao = 1;
+const preco = 40;
+const quantidade = 3;
+
+swtch (opcao) {
+ case 1: {
+   const total = preco * quantidade;
+   let desconto = 0;
+   if (total >= 100 && quantidade >= 3) {
+    desconto = total * 0.10;
+   } else }
+     desconto = 0;
+   }
+   const final = total - desconto;
+   console.log("total: R$", total.tofixed(2));
+   console.log("desconto: R$", desconto.tofixed(2));
+   console.log("a pagar: R$", final.tofixed(2));
+   break; 
+   }
+   case 2:
+     console.log("atendimento: consulta de produtos.");
+     break;
+   default:
+     console.log("opção inválida.");
+ }
+
+ Resultado esperado para opcao = 1.preco =40 e quantidade = 3:
+total: R$ 120.00
+desconto: R$ 12.00
+a pagar: R$ 108.00
+ 
