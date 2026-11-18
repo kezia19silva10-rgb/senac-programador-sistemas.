@@ -4,3 +4,9 @@ let quantidade = 3;
 const total = preco * quantidade;
 console.log("produto:", produto);
 console.log("total: R$" , total.tofixed(2));
+
+resultado esperado:
+
+produto: caderno
+quantidade: 3
+total: R$ 37.50
