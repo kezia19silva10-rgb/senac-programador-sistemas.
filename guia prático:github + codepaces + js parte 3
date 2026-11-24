@@ -1,0 +1,11 @@
+const produto = "caderno";
+const preco = 12.50;
+let duantidade = 3;
+const total = preco * quantidade);
+console.log("produto:", produto);
+console.log("quantidade:", quantidade);
+console.log("total: R$", total.tofixed(2));
+
+produto: caderno
+quantidade: 3
+total: R$ 37.50
